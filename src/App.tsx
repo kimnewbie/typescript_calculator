@@ -5,7 +5,8 @@ import Form from "./components/Form";
 const App: FC = (): JSX.Element => {
   return (
     <div className="wrapper">
-      {/* <Calculator /> */}
+      <Calculator />
+      <div className="padding-10"></div>
       <Form />
     </div>
   );
